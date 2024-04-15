@@ -1,0 +1,261 @@
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body {
+    box-sizing: border-box;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(33,33,33,1) 67%, rgba(48,48,48,1) 84%);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* -----------------------------------------*/
+/*Sección Menu*/
+
+section.menu{
+    width: 100%;
+    height: 88px;
+    padding: 32px 0;
+    color: white;
+}
+.menu__title{
+    color: orange;
+    font-size: 16px;
+}
+/*titulo*/
+/* ----------------------------------------*/
+section.title{
+    width: 100%;
+    height: 380px;
+    padding: 32px 0;
+}
+.title__div{
+    padding: 15px 25px;
+}
+.title__bio{
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.title__subsection{
+    font-size: 18px;
+    color: orange;
+}
+.title__network{
+    padding-top: 25px;
+    padding-left:0;
+}
+.title__network a{
+    
+    color: white;
+    font-size: 15px;
+}
+.title__profile{
+    border-radius: 180px;
+    width: 368px;
+    height: 368px;
+    margin-left: 25px;
+}
+/*sobre mi*/
+/*-----------------------------------------*/
+
+.about__container{
+    padding: 0px 25px;
+}
+.about__title{
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about__paragraph{
+    width: 68%;
+    text-align: justify;
+    font-size: 18px;
+    color: orange;
+}
+.firma{
+    width: 140px;
+    height: 100px;
+}
+/*Sección de Skills*/
+section.skills{
+    padding: 0px 25px;
+}
+.skills__title{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.skills__box{
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    
+}
+.skills__box ul
+{
+    padding: 0%;
+}
+.skills__name{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*<!-- Sección de Hobbies -->*/
+section.hobbies{
+    padding: 0 25px;
+
+}
+.hobbies__title{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hobbies__box{
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+}
+.hobbies__box ul
+{
+    padding: 0%;
+}
+.hobbies__name{
+    color: orange;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+/*Seccion Formacion Academica*/
+section.academic{
+    margin-top: 100px;
+    padding: 0 25px;
+}
+.academic__title{
+    text-align: center;
+    color: orange;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.academic__courses__box{
+    border-radius: 15px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: white;
+    width: 33%;
+    height: 250px;
+    background-color: black;
+}
+.academic__courses__list{
+    padding: 0%;
+}
+.academic__courses__item__title{
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.academic__courses__item__subtitle{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*<!-- Sección de Experiencia Profesional/Proyectos-->*/
+section.experience{
+    padding: 0 25px;
+    margin-bottom: 40px;
+    
+}
+.experience__section__title{
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.experience__info{
+    text-align: center;
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.experience__description{
+    height: 40px;
+    width: auto;
+}
+.experiencia__botao--repo{
+    background-color: white;
+    color: orange;
+    font-size: 15px;
+    font-weight: bold;
+}
+.experience__botao--demo{
+    background-color: orange;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+
+
+/* <!-- Sección de Contacto -->*/
+.formcontato__contacto{
+    width: 940px;
+}
+.formcontato__input{
+    height: 25px;
+}
+.formcontato__title{
+    color: orange;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formcontato__subtext{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.formcontato__botao{
+    width: 25%;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+}
+
+/*<!-- Sección de Footer -->*/
+.footer__rodape{
+    margin-top: 60px;
+    color: orange;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 80px;
+    text-align: center;
+}
